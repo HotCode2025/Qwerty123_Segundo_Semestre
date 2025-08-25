@@ -13,6 +13,8 @@ seleccionArgentina[1] = {'Nombre': 'Franco Armani', 'Edad': 35, 'Altura': 1.89, 
 seleccionArgentina[5] = {'Nombre': 'Leandro Paredes', 'Edad': 28, 'Altura': 1.80, 'Precio': '15 Millones', 'Posicion': 'Mediocampista'}
 seleccionArgentina[7] = {'Nombre': 'Ángel Correa', 'Edad': 26, 'Altura': 1.70, 'Precio': '18 Millones', 'Posicion': 'Delantero'}
 seleccionArgentina[3] = {'Nombre': 'Marcos Acuña', 'Edad': 30, 'Altura': 1.75, 'Precio': '8 Millones', 'Posicion': 'Defensa'}
+seleccionArgentina[9] = {'Nombre': 'Julian Alvarez', 'Edad': 25, 'Altura': 1.70, 'Precio':'90 millones de euros', 'Posicion': 'Delantero Extremo'}
+seleccionArgentina[3] = {'Nombre': 'Nicolas Tagliafico', 'Edad': 32, 'Altura': 1.70, 'Precio': '6 millones de euros', 'Posicion': 'Lateral Izquierdo'}
 
 # Muestro el el diccionario completo
 #print(seleccionArgentina)
