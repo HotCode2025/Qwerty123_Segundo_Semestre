@@ -20,6 +20,7 @@ seleccionArgentina[3] = {'Nombre': 'Marcos Acuña', 'Edad': 30, 'Altura': 1.75, 
 for llave, valor in seleccionArgentina.items():
     print(llave, valor)
 
-# Como tarea agregar por lo menos 4 jugadores más al diccionario
+#Muestro la cantidad de jugadores
+
 print('Tenemos cargados en el diccionario la cantidad de jugadores: ', end=' ')
 print(len(seleccionArgentina))
