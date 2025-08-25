@@ -15,4 +15,11 @@ seleccionArgentina[7] = {'Nombre': 'Ángel Correa', 'Edad': 26, 'Altura': 1.70, 
 seleccionArgentina[3] = {'Nombre': 'Marcos Acuña', 'Edad': 30, 'Altura': 1.75, 'Precio': '8 Millones', 'Posicion': 'Defensa'}
 
 # Muestro el el diccionario completo
-print(seleccionArgentina)
+#print(seleccionArgentina)
+
+for llave, valor in seleccionArgentina.items():
+    print(llave, valor)
+
+# Como tarea agregar por lo menos 4 jugadores más al diccionario
+print('Tenemos cargados en el diccionario la cantidad de jugadores: ', end=' ')
+print(len(seleccionArgentina))
