@@ -1,4 +1,4 @@
-package Ciclos03;
+//package Ciclos03;
 import javax.swing.JOptionPane;
 
 public class Ciclos03 {
