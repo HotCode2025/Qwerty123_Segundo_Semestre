@@ -1,6 +1,6 @@
 //Ejercicio 4 con JOptionPane
 
-package Ciclos03;
+//package Ciclos03;
 import javax.swing.JOptionPane;
 
 public class EjercicioJOptionPane {
