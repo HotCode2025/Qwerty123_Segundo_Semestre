@@ -1,9 +1,8 @@
 // Ejercicio 4 con Scanner
-
-package Ciclos03;
+// package JAVA.Clase3;
 import java.util.Scanner;
 
-public class EjercicioScanner {
+public class Ejercicio4Scanner {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int numero;
