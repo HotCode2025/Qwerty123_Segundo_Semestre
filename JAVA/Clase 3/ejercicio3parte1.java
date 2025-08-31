@@ -1,7 +1,7 @@
-package Ciclos03;
+//package Ciclos03;
 import java.util.Scanner;
 
-public class Ciclos03 {
+public class ejercicio3parte1 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int numero;
@@ -20,5 +20,6 @@ public class Ciclos03 {
         } while (numero != 0);
 
         System.out.println("Programa finalizado.");
+        entrada.close();   // se cierra el Scanner
     }
 }
