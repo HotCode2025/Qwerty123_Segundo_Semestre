@@ -3,4 +3,5 @@
 # Ejercicio 4: Sumar números pares dentro de un rango por ejemplo del 2 al 30
 # Ejercicio 5: Programa para calcular el factorial de un número positivo
 # Ejercicio 6: Tabla de multiplicar
+# Ejercicio 7: Juego de adivina el numero
 # Ejercicio 8: Menú interactivo - Cajero automático con funciones
