@@ -5,3 +5,4 @@
 # Ejercicio 6: Tabla de multiplicar
 # Ejercicio 7: Juego de adivina el numero
 # Ejercicio 8: Menú interactivo - Cajero automático con funciones
+# Ejercicio 9: Mostrar una frase sin espacios y contar su longitud
