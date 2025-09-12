@@ -1,5 +1,5 @@
 
-package ciclos07;
+package Ejercicios;
 
 import javax.swing.JOptionPane;
 

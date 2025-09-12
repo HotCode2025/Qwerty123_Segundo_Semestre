@@ -1,3 +1,4 @@
+package Ejercicios;
 // Ejercicio 7: Pedir números hasta que se introduzca uno negativo 
 // y calcular la media 
 import java.util.Scanner;
