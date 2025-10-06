@@ -1,0 +1,35 @@
+@startuml
+' Definición de la clase padre Vehiculo '
+class Vehiculo {
+  -- Atributos --
+  + color : str
+  + ruedas : int
+  -- Métodos --
+  + __init__(color, ruedas)
+  + __str__() : str
+}
+
+' Definición de la clase hija Auto '
+class Auto {
+  -- Atributos --
+  + velocidad : int (km/hr)
+  -- Métodos --
+  + __init__(color, ruedas, velocidad)
+  + __str__() : str
+}
+
+' Definición de la clase hija Bicicleta '
+class Bicicleta {
+  -- Atributos --
+  + tipo : str (urbana/montaña)
+  -- Métodos --
+  + __init__(color, ruedas, tipo)
+  + __str__() : str
+}
+
+' Relación de Herencia '
+' La flecha con triángulo vacío apunta al padre '
+Vehiculo <|-- Auto
+Vehiculo <|-- Bicicleta
+
+@enduml
