@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram program="umlet" version="15.0">
+  <zoom_level>100</zoom_level>
+
+  <!-- Clase Persona (superclase) -->
+  <element>
+    <type>com.umlet.element.base.Class</type>
+    <coordinates>
+      <x>260</x><y>40</y><w>260</w><h>200</h>
+    </coordinates>
+    <panel_attributes>«Persona»
+-------------------------------
+-nombre: String
+-genero: char
+-edad: int
+-direccion: String
+-------------------------------
++getNombre(): String
++setNombre(nombre: String): void
++getGenero(): char
++setGenero(genero: char): void
++getEdad(): int
++setEdad(edad: int): void
++getDireccion(): String
++setDireccion(direccion: String): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+
+  <!-- Clase Empleado (subclase) -->
+  <element>
+    <type>com.umlet.element.base.Class</type>
+    <coordinates>
+      <x>60</x><y>320</y><w>240</w><h>160</h>
+    </coordinates>
+    <panel_attributes>«Empleado»
+-------------------------------
+-idEmpleado: int
+-sueldo: double
+-contadorEmpleado: static int
+-------------------------------
++Empleado(nombre: String, genero: char, edad: int, direccion: String, sueldo: double)
++getIdEmpleado(): int
++getSueldo(): double
++setSueldo(sueldo: double): void
++toString(): String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+
+  <!-- Clase Cliente (subclase) -->
+  <element>
+    <type>com.umlet.element.base.Class</type>
+    <coordinates>
+      <x>460</x><y>320</y><w>260</w><h>180</h>
+    </coordinates>
+    <panel_attributes>«Cliente»
+-------------------------------
+-idCliente: int
+-fechaRegistro: Date
+-vip: boolean
+-contadorCliente: static int
+-------------------------------
++Cliente(nombre: String, genero: char, edad: int, direccion: String, fechaRegistro: Date, vip: boolean)
++getIdCliente(): int
++getFechaRegistro(): Date
++setFechaRegistro(fechaRegistro: Date): void
++isVip(): boolean
++setVip(vip: boolean): void
++toString(): String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+
+  <!-- Relaciones de herencia (generalization): Empleado -> Persona  y Cliente -> Persona -->
+  <!-- En UMLet el tipo de línea para generalización se indica con lt=<. en el panel_attributes -->
+  <element>
+    <type>com.umlet.element.base.Relation</type>
+    <coordinates>
+      <!-- relación Empleado -> Persona (posicion aproximada) -->
+      <x>190</x><y>220</y><w>150</w><h>80</h>
+    </coordinates>
+    <panel_attributes>lt=<.</panel_attributes>
+    <additional_attributes/>
+  </element>
+
+  <element>
+    <type>com.umlet.element.base.Relation</type>
+    <coordinates>
+      <!-- relación Cliente -> Persona (posicion aproximada) -->
+      <x>420</x><y>220</y><w>150</w><h>80</h>
+    </coordinates>
+    <panel_attributes>lt=<.</panel_attributes>
+    <additional_attributes/>
+  </element>
+
+</diagram>
