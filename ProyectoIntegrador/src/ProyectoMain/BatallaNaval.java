@@ -27,7 +27,7 @@ public class BatallaNaval {
                 switch (opcion) {
                     case 1 -> jugar();
                     case 2 -> ranking.mostrarTop10();
-                    case 3 -> System.out.println("Gracias por jugar. ¡Hasta la próxima! 🎮");
+                    case 3 -> System.out.println("Gracias por jugar. ¡Hasta la próxima!");
                     default -> System.out.println("Opción inválida. Intente nuevamente.");
                 }
             } while (opcion != 3);
@@ -125,7 +125,7 @@ public class BatallaNaval {
                 puntaje -= 5;
                 System.out.println("\n ¡Agua! (-5 puntos)");
             } else if (resultado == 'X' || resultado == '#') {
-                System.out.println("\n ¡Tocado o hundido!");
+                System.out.println("\n ¡Impacto!");
             }
 
             // Feedback cada 5 disparos válidos
@@ -203,7 +203,7 @@ public class BatallaNaval {
         } else if (puntaje > 50) {
             System.out.println(" ¡Buen intento! Con un poco más de suerte, ¡la próxima es tuya!");
         } else {
-            System.out.println(" Consejo: ¡los barcos no se mueven! Estudia patrones.");
+            System.out.println(" Consejo: ¡los barcos no se mueven! Estudia patrones para ser mas efectivo con los disparos!.");
         }
         
         System.out.println("=".repeat(50) + "\n");
