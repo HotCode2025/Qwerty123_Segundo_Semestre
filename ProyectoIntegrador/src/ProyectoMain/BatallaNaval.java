@@ -183,7 +183,7 @@ public class BatallaNaval {
                 System.out.print("\n¿Quieres ver dónde estaban los barcos? (s/n): ");
                 String resp = scanner.nextLine().trim();
                 if (resp.isEmpty() || resp.equalsIgnoreCase("s") || resp.equalsIgnoreCase("si")) {
-                    System.out.println("\n🔍 Solución:");
+                    System.out.println("\n Solución:");
                     tablero.mostrarTableroOriginal();
                 }
                 System.out.println("\n Tus disparos:");
