@@ -14,5 +14,8 @@ Este grupo de trabajo está integrado por los siguientes miembros:
 * **CONTRERAS, Omar Gustavo**
 * **RAGUSA, Franco**
 * **ROMERO, Paul**
-* **Tomas Andres**
+* **Tomas Miguel, ANDRES**
 * **YAÑEZ, Martín**
+
+Link del video en youtube del proyecto integrador del segundo semestre "Batalla Naval"
+https://youtu.be/h6ZqVNUcPl4
