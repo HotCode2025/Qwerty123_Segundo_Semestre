@@ -1,5 +1,7 @@
 package JAVA.Clase8.Test;
 
+import JAVA.Clase8.Dominio.Persona;
+
 public class test {
 
     private int contador;

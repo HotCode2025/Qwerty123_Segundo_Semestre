@@ -45,6 +45,7 @@ public class Persona {
         this.eliminado = eliminado;
     }
 
+    @Override
     public String toString(){
         return "Persona [ Nombre :"+this.nombre+
                 ",sueldo : "+this.sueldo+

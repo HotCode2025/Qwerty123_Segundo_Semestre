@@ -1,5 +1,7 @@
 package JAVA.Clase7.Test;
 
+import JAVA.Clase7.Dominio.Persona;
+
 public class test {
     public static void main(String[] args) {
         Persona persona1 = new Persona("Osvaldo", 57000, false);
