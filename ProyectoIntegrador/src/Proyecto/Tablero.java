@@ -117,7 +117,7 @@ Estos bucles for están anidados dentro del while, y su ejecución depende de la
         if (vistaJugador[fila][columna] != '?') {
             return false;
         }
-        int valor = barcos[fila][columna];
+        int valor = barcos[fila][columna]; // Obtiene el valor de la matriz secreta barcos en la posición del disparo.
         if (valor == 0) {
             vistaJugador[fila][columna] = 'O';
         } else {

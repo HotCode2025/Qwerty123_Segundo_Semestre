@@ -1,3 +1,8 @@
+## Link del video en youtube del proyecto integrador del segundo semestre "Batalla Naval"
+https://youtu.be/h6ZqVNUcPl4
+
+
+
 ## GUIA SOBRE EL PROYECTO
 
 Creamos el dominio(Jugadores,Tablero,TipoBarco) y 2 clases de utilidad(Ranking,Utilidad)
